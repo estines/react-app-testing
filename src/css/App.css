@@ -1,0 +1,59 @@
+@import '~antd/dist/antd.css';
+
+.hr{
+border: rgb(52, 105, 160);
+}
+.ant-layout {
+  min-height: 100vh;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+.ant-layout-header {
+  background:rgb(52, 105, 160);
+  padding: 0px ;
+}
+
+/* ----------------  Menu -------------------   */
+.ant-layout-sider {
+  background: gray;
+}
+
+.ant-menu-dark, 
+.ant-menu-sub {
+background: gray;
+}
+
+/* .ant-menu-item {
+  color: black !important;
+} */
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background: black;
+}
+
+.ant-menu-item.ant-menu-item-active.ant-menu-item-selected {
+  background: rgb(63, 63, 63);
+}
+
+/* ----------------------------  Div Form   --------------------------------- */
+.SearchProject-form {
+  width: 70%;
+  margin: auto;
+
+}
